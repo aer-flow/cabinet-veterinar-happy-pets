@@ -1,0 +1,12 @@
+# Backups and temporary files
+*_backup.html
+*_ph*
+*_stable*
+*_step*
+script_backup.js
+style_backup.css
+ai_studio_code.html
+index_backup.html
+
+# DS_Store
+.DS_Store

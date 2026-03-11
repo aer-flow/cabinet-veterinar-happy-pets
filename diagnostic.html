@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic & Analize | Happy Pets Premium</title>
+    <meta name="description" content="Laborator veterinar și diagnostic avansat în Cluj-Napoca.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body class="subpage">
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header id="navbar" class="scrolled">
+        <a href="index.html" class="logo"><i class="fa-solid fa-paw"></i> HappyPets</a>
+        <nav class="nav-links">
+            <a href="index.html#servicii">Înapoi la Servicii</a>
+            <a href="index.html#programare" class="btn btn-emerald" style="padding: 10px 24px; font-size: 0.95rem;">Programare</a>
+        </nav>
+        <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <section class="subpage-hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <span class="badge">Tehnologie Advanced</span>
+                <h1>Diagnostic & <br> Analize</h1>
+                <p>Precizia este esențială pentru un tratament corect. Laboratorul nostru rapid și aparatura de imagistică digitală oferă rezultate în cel mai scurt timp.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="bento-grid">
+                <div class="service-card bento-wide reveal">
+                    <div class="service-icon"><i class="fa-solid fa-flask-vial"></i></div>
+                    <h3>Laborator In-House</h3>
+                    <p>Realizăm analize de sânge, biochimie și citologie direct în clinică, reducând timpul de așteptare la doar câteva minute.</p>
+                </div>
+                
+                <div class="service-card bento-tall reveal">
+                    <div class="service-icon"><i class="fa-solid fa-x-ray"></i></div>
+                    <h3>Imagistică Digitală</h3>
+                    <p>Radiografii de înaltă rezoluție și ecografii Doppler pentru o vizualizare clară a structurilor interne.</p>
+                    <img src="https://images.unsplash.com/photo-1579154235602-3c27bd7ffb16?q=80&w=800" alt="Imagistică" style="margin-top: 2rem; border-radius: 12px;" loading="lazy">
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Teste Rapide</h3>
+                    <p>Diagnosticarea instantanee a bolilor infecțioase și virale prin kit-uri de testare de ultimă generație.</p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Second Opinion</h3>
+                    <p>Analizăm cazuri complexe și oferim o a doua opinie medicală argumentată, bazată pe dovezi solide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: var(--primary-light);">
+        <div class="container text-center reveal">
+            <h2>Ai nevoie de analize rapide?</h2>
+            <p style="margin-bottom: 2rem;">Laboratorul nostru este la dispoziția ta pentru rezultate sigure.</p>
+            <a href="index.html#programare" class="btn btn-emerald">Programează Analize</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom" style="border: none;">
+                <p>&copy; 2026 Happy Pets Cluj. Standardul de Aur în Medicină Veterinară.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        gsap.from(".subpage-hero h1", { y: 50, opacity: 0, duration: 1, ease: "power3.out", delay: 0.3 });
+        gsap.from(".subpage-hero p", { y: 30, opacity: 0, duration: 1, ease: "power3.out", delay: 0.5 });
+    </script>
+</body>
+</html>
