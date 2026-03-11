@@ -630,6 +630,7 @@ footer h3 { color: var(--white); margin-bottom: 1.5rem; font-size: 1.5rem; }
     .footer-grid { grid-template-columns: 1fr; gap: 3rem; }
 }
 @media (max-width: 768px) {
+    body { background-attachment: scroll; }
     .nav-links { display: none; }
     .mobile-menu { display: block; }
     .smart-form { grid-template-columns: 1fr; }
