@@ -22,7 +22,7 @@
         0 12px 40px rgba(120, 173, 55, 0.08);
 
     /* Textures */
-    --bg-paws: url('file:///Users/imac24/.gemini/antigravity/brain/b930bb89-0505-4711-b5f6-4350fecd5beb/happy_pets_mammal_paws_texture_1773215627458.png');
+    --bg-paws: url('paws.png');
 
     --transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
     --border-radius: 24px;
